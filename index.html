@@ -84,18 +84,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
-
-    <style>
-      #container {
-        position: relative;
-      }
-
-      #img2 {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-      }
-    </style>
   </head>
   <body style="font-family: 'Poppins', Sans-serif">
     <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-body-tertiary border-bottom shadow-sm p-0">
@@ -114,15 +102,17 @@
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container-fluid">
       <main class="bd-main">
-        <div class="row py-3 justify-content-center">
-          <div class="col-sm-4">
-            <h1 class="fs-1 fw-bold text-center mb-4" style="color: #2348ab">
-              <span>Sua cabeça está precisando de uma ajudinha?</span>
+        <div class="row py-3 justify-content-center text-center">
+          <div class="col-lg-4">
+            <h1 class="fs-1 fw-bold mb-4" style="color: #2348ab">
+              <span>Sua cabeça está<br />precisando de uma<br />ajudinha?</span>
             </h1>
 
-            <span class="fs-4"> Deixe as tarefas administrativas para nós e <strong class="text-primary">concentre-se no crescimento do seu negócio.</strong> </span>
+            <div class="col-sm-12">
+              <span class="fs-4"> Deixe as tarefas administrativas para nós e <strong class="text-primary">concentre-se no crescimento do seu negócio.</strong> </span>
+            </div>
 
             <a href="https://wa.me/5511994214468" target="_blank" class="btn btn-success btn-lg my-3">
               <i class="bi bi-whatsapp"></i>
@@ -130,17 +120,22 @@
             </a>
           </div>
 
-          <div class="col-sm-1"></div>
+          <div class="col-lg-1"></div>
 
-          <div class="col-sm-4" id="container">
-            <img class="img-fluid" id="img1" src="img/DhaniGota_02.png" />
-            <img class="img-fluid" id="img2" src="img/DhaniGota_Icons.png" />
+          <div class="col-lg-3">
+            <img src="img/DhaniGota_03.png" />
+          </div>
+        </div>
+
+        <div class="row bg-info">
+          <div class="container col-sm-12">
+            <h1>teste</h1>
           </div>
         </div>
       </main>
     </div>
 
-    <div class="container">
+    <div class="container footer">
       <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 px-5 py-5 my-5 border-top">
         <div class="col mb-3">
           <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
